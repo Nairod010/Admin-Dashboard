@@ -2,6 +2,9 @@
     --blue: #954435;
     --grey: #9F816F;
     --yellow: #CDC2AE;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
@@ -10,11 +13,16 @@
 body {
     background-color: var(--grey);
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
 .main-container {
-    height: 100vh;
+    transform: scale(0.71); /* Scale down to 67% */
+    transform-origin: 0 0; /* Scale from the top-left corner */
+    width: calc(100% / 0.71); /* Adjust the width to compensate for scaling */
+    height: calc(100% / 0.71); /* Adjust the height to compensate for scaling */
     font-family: 'Dosis', sans-serif;
     font-size: 1rem;
     display: grid;
