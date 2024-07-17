@@ -10,35 +10,13 @@
 
 <body>
     <div class="main-container">
-        <div class="nav">
-            <div class="first-row">
-                <img src="svgs/magnify.svg" alt="search" class="search bell">
-                <input type="text" class="search-bar">
-                    <div class="profile">
-                        <img src="svgs/bell-ring.svg" alt="bell" class="bell">
-                        <img src="svgs/d60b60df9147a88c660bc1452385c3a7.jpg" alt="profile" class="profile-pic">
-                        <p class="username">Dorian Blegu</p>
-                    </div>
-            </div>
-            <div class="second-row">
-                <div class="greeting">
-                    <img src="svgs/d60b60df9147a88c660bc1452385c3a7.jpg" alt="profile" class="profile-pic">
-                    <p>Greetings traveler</p>
-                </div>
-                    <ul class="post">
-                        <li class="post-items">New</button></li>
-                        <li class="post-items">Upload</button></li>
-                        <li class="post-items">Share</button></li>
-                    </ul>
-            </div>
-        </div>
         <div class="sidebar">
-                <ul class="sidebar-logo">
-                    <li class="item">
-                        <img src="./svgs/view-dashboard-outline.svg" alt="home" class="dashboard-img">
-                        <p><a href="">Dashboard</a></p>
-                    </li>
-                </ul>
+            <ul class="sidebar-logo">
+                <li class="item">
+                    <img src="./svgs/view-dashboard-outline.svg" alt="home" class="dashboard-img">
+                    <p><a href="">Dashboard</a></p>
+                </li>
+            </ul>
             <ul class="menus">
                 <li class="item">
                     <img src="./svgs/home.svg" alt="home" class="logo-img">
@@ -80,9 +58,31 @@
                 </li>
             </ul>
         </div>
+        <div class="nav">
+            <div class="search">
+                <img src="svgs/magnify.svg" alt="search" class="bell">
+                <input type="text" class="search-bar" placeholder="search...">
+            </div>
+            <div class="profile">
+                <img src="svgs/bell-ring.svg" alt="bell" class="bell">
+                <img src="svgs/d60b60df9147a88c660bc1452385c3a7.jpg" alt="profile" class="profile-pic">
+                <p class="username">Dorian Blegu</p>
+            </div>
+
+            <div class="greeting">
+                <img src="svgs/d60b60df9147a88c660bc1452385c3a7.jpg" alt="profile" class="profile-pic">
+                <p>Greetings traveler</p>
+            </div>
+            <ul class="post">
+                <li class="post-items"><a href="none">New</a></button></li>
+                <li class="post-items"><a href="none">Upload</a></button></li>
+                <li class="post-items"><a href="none">Share</a></button></li>
+            </ul>
+        </div>
         <div class="post-container">
             <div class="projects">
-                <div class="project" <p class="title">project 1</p>
+                <div class="project">
+                    <p class="title">project 1</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, magnam consequuntur officia
                         repellat
                         cumque, culpa aut animi exercitationem quaerat amet blanditiis aliquid tempora totam aperiam a,
@@ -131,10 +131,11 @@
                 </div>
             </div>
             <div class="announcements">
+                <h2>Announcements</h2>
                 <p class="announcements-title"></p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias soluta dolorem, aliquam a ipsum unde,
                     pariatur mollitia blanditiis ex eaque eveniet repellat, dicta aliquid provident quae cum illum at
-                    veniam!</p>
+                    veniam!</p> 
                 <p class="announcements-title"></p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem repudiandae ipsa reiciendis sunt,
                     omnis
@@ -145,26 +146,44 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laborum ex voluptatum aspernatur
                     voluptatibus harum sed officiis consequuntur est odio, veniam placeat dolore eum magni
                     exercitationem.
-                    Earum iure quo corrupti.</p>
+                    Earum iure quo corrupti.</p> 
             </div>
             <div class="trending">
+                <h2>Trending</h2>
                 <div class="trending-items">
-                    <div class="user-pic">user 1</div>
-                    <div class="user-tag">tag 1</div>
-                    <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
-                        nulla.</div>
-                    <div class="user-pic">user 2</div>
-                    <div class="user-tag">tag 2</div>
-                    <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
-                        nulla.</div>
-                    <div class="user-pic">user 3</div>
-                    <div class="user-tag">tag 3</div>
-                    <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
-                        nulla.</div>
-                    <div class="user-pic">user 4</div>
-                    <div class="user-tag">tag 4</div>
-                    <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
-                        nulla.</div>
+                    <div class="user-box">
+                        <div class="user-pic"><img src="svgs/placeholder.png" alt="placeholder" class="user-pic"></div>
+                        <div class="user-info">
+                            <div class="user-tag">@placeholder</div>
+                            <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Error,
+                                nulla.</div>
+                        </div>
+                    </div>
+                    <div class="user-box">
+                        <div class="user-pic"><img src="svgs/placeholder.png" alt="placeholder" class="user-pic"></div>
+                        <div class="user-info">
+                        <div class="user-tag">@placeholder</div>
+                        <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                            nulla.</div>
+                    </div>
+                    </div>
+                    <div class="user-box">
+                        <div class="user-pic"><img src="svgs/placeholder.png" alt="placeholder" class="user-pic"></div>
+                        <div class="user-info">
+                        <div class="user-tag">@placeholder</div>
+                        <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                            nulla.</div>
+                    </div>
+                    </div>
+                    <div class="user-box">
+                        <div class="user-pic"><img src="svgs/placeholder.png" alt="placeholder" class="user-pic"></div>
+                        <div class="user-info">
+                        <div class="user-tag">@placeholder</div>
+                        <div class="user-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error,
+                            nulla.</div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
